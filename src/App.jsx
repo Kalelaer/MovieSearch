@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 //This is where our different bits of react components are imported.
-import { SearchBar } from './components/searchBar';
-import { SearchResultsList } from './components/searchResultsList';
+import { SearchBar } from './components/searchBar.jsx';
+import { SearchResultsList } from './components/searchResultsList.jsx';
 
 function App() {
 
