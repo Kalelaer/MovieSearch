@@ -14,7 +14,7 @@ const options = {
     }
 };
 //This function is what will call our API. It takes our search value, calls for it, waits for the api to respond,
-//then it takes the response and turns it into a json.
+//then it takes the response and turns it into a json. I take the json and look for the parts I want before sending them to the results list.
     const fetchMovieData = async(value) => {
         if(value == ""){
             setResults("Sorry, we didn't get any results. Try again.")

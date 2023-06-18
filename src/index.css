@@ -6,6 +6,7 @@
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
+/*And these sections of course apply to their specific divisions. The rest of the project will have similar css for each division in the module.*/
 h1 {
 color: goldenrod;
 background-color: black;
