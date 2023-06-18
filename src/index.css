@@ -4,4 +4,13 @@
   margin: 0px;
   padding: 0px;
   font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+h1 {
+color: goldenrod;
+background-color: black;
+}
+p{
+  color: goldenrod;
+  background-color: black;
 }
