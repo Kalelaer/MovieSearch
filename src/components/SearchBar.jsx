@@ -18,14 +18,19 @@ const options = {
     const fetchMovieData = async(value) => {
         if(value == ""){
             setResults("Sorry, we didn't get any results. Try again.")
+        }else{
+            if(value != ""){
+                let returnData;
+                let response;
+                response = await fetch("https://api.themoviedb.org/3/search/movie?query=" + value, options)
+                returnData = await response.json();
+                if(returnData.results.length > 0){
+                    setResults(returnData.results)
+                }else{
+                    setResults("Sorry, we didn't get any results. Try again.")
+                }
+                
         }
-        if(value != ""){
-            let returnData;
-            let response;
-            response = await fetch("https://api.themoviedb.org/3/search/movie?query=" + value, options)
-            returnData = await response.json();
-            console.log(returnData.results);
-            setResults(returnData.results)
         }
         
     };

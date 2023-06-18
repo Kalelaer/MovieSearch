@@ -7,7 +7,7 @@ export const SearchResult = ({ result }) => {
       <div
         className="search-result"
         >
-           {console.log("called")} {result}
+          {result}
       </div>
       
     );
