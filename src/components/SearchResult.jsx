@@ -1,7 +1,7 @@
 import React from "react";
 import "./searchResult.css"
 
-export const SearchResult = ({ result }) => {
+export const searchResult = ({ result }) => {
     return (
         
       <div

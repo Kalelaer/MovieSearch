@@ -3,7 +3,7 @@ import {FaSearch} from "react-icons/fa";
 import "./searchBar.css";
 
 //Here I set up the element that is going to contain the other pieces.
-export const SearchBar = ({ setResults }) => {
+export const searchBar = ({ setResults }) => {
     const [input, setInput] = useState("")
 
 const options = {
