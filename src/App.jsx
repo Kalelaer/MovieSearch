@@ -1,20 +1,22 @@
-import { useState } from "react";
-
-import "./App.css";
-import { SearchBar } from "./components/SearchBar";
-import { SearchResultsList } from "./components/SearchResultsList";
+import { useState } from 'react';
+import './App.css';
+//This is where our different bits of react components are imported.
+import { SearchBar } from './components/searchBar';
+import { SearchResultsList } from './components/searchResultsList';
 
 function App() {
+
   const [results, setResults] = useState([]);
 
   return (
-    <div className="App">
-      <div className="search-bar-container">
-        <SearchBar setResults={setResults} />
-        {results && results.length > 0 && <SearchResultsList results={results} />}
+    <div className='App'>
+      <div className='searchBarContainer'>
+        
+        <SearchBar setResults={setResults}/>
+        <SearchResultsList results={results} />
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

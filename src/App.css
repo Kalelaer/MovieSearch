@@ -1,10 +1,11 @@
+/* Here I create some styling to apply to the division where the searchbar and results will be. This is pretty much the body for a normal page.*/
 .App {
-  background-color: #eee;
-  width: 100vw;
+  background-color: lightgray;
   height: 100vh;
+  width: 100vw;
 }
 
-.search-bar-container {
+.searchBarContainer {
   padding-top: 20vh;
   width: 40%;
   margin: auto;
@@ -13,3 +14,4 @@
   align-items: center;
   min-width: 200px;
 }
+
