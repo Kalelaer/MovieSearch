@@ -34,7 +34,7 @@ const options = {
         }
         
     };
-//This will handle changes to the searchbar and sending those to the above function.
+//This will handle changes to the searchbar and sending those to the above function while adjusting the input value.
 const handleChange = (value) => {
     setInput(value);
     fetchMovieData(value);

@@ -7,7 +7,7 @@ import { SearchResultsList } from './components/searchResultsList';
 function App() {
 
   const [results, setResults] = useState([]);
-
+//THis just sets up the module to have a division with the searchbar and results.
   return (
     <div className='App'>
       <div className='searchBarContainer'>
